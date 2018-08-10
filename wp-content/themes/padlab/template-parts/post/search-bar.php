@@ -10,8 +10,8 @@
     <div class="search-bar-inner">
         <div class="search-bar-toggle">
             <div class="search-bar-toggle-inner">
-                <button id="grid-view" class="search-bar-toggle-btn search-view-btn search-grid-view"><i class="fa fa-th" aria-hidden="true"></i></i></button>
-                <button id="list-view" class="search-bar-toggle-btn search-view-btn search-list-view view-active"><i class="fa fa-list-ul" aria-hidden="true"></i></i></button>
+                <button id="grid-view" class="search-bar-toggle-btn search-view-btn search-grid-view view-active"><i class="fa fa-th" aria-hidden="true"></i></i></button>
+                <button id="list-view" class="search-bar-toggle-btn search-view-btn search-list-view"><i class="fa fa-list-ul" aria-hidden="true"></i></i></button>
                 <button id="map-view" class="search-bar-toggle-btn search-view-btn search-map-view"><i class="fa fa-map-o" aria-hidden="true"></i></button>
             </div>
         </div>

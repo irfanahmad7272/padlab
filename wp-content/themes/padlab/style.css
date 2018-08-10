@@ -1476,7 +1476,7 @@ a.btn-link {
 
     .search-tiles-column {
         margin-top: 5px;
-        width: 58.33333333%;
+        width: 50%;
         padding-right: 5px;
         padding-left: 5px;
     }
@@ -1506,11 +1506,11 @@ a.btn-link {
         position: fixed;
         top: 110px;
         right: 0;
-        width: 41.66666667%;
+        width: 49.666667%;
     }
 
     .search-map-inner {
-        width: 41.66666667%;
+        width: 50%;
         position: fixed;
         height: calc(100% - 110px);
     }

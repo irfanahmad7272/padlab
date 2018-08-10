@@ -72,6 +72,140 @@ li.single-social-link .fa{
     font-size: 28px;
     color: #6d6a6a;
 }
+.navbar li.menu-item a, .navbar li.menu-item a:hover, .sign-in-button {
+    color: #948787 !important;
+}
+.search-bar-wrap.sticky-search-scrolled{
+    top: 0 !important;
+}
+.search-bar-wrap{
+    top: 95px !important;
+}
+.search-map-column{
+    height: auto !important;
+}
+
+/* Listing views style */
+.search-listing-items.active-listing{
+    display: block;
+}
+.currently-viewing-listing-item {
+    float: left;
+}
+.all-searched-listing-items {
+    float: left;
+    width: 100%;
+}
+.search-listing-items{
+    display: none;
+}
+.viewing-item-right {
+    width: 50%;
+    float: right;
+    padding: 50px 20px 20px;
+}
+.viewing-item-left {
+    width: 50%;
+    float: left;
+    padding: 50px 20px 20px;
+}
+.viewing-item-left img {
+    width: 100%;
+    padding: 10px 20px;
+}
+.listing-item-price {
+    display: block;
+    color: #b49d6b;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.listing-mls-code {
+    font-size: 14px;
+    padding: 5px 0;
+    display: block;
+}
+.listing-item-address {
+    display: block;
+    padding: 5px 0;
+}
+.listing-item-extra-detail {
+    display: block;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.listing-item-description {
+    padding: 5px 0;
+    text-align: justify;
+    font-size: 16px;
+}
+.listing-item-read-more-btn {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.all-search-listing-table {
+    width: 100%;
+    padding: 20px 20px;
+}
+.all-search-listing-table td {
+    text-align: center;
+    padding: 10px 0;
+}
+/* END Listing Style */
+.sign-in-button:hover {
+    background-color: #d8d8d8 !important;
+    border: 1px solid black;
+}
+footer{
+    height: auto !important;
+}
+.footer-lower-inner {
+    padding-top: 30px !important;
+}
+.footer-columns {
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    padding: 5px 10px 50px;
+}
+p.footer-column-title {
+    color: #fff;
+    /* top: 0; */
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 30px 0px 20px;
+}
+ul.footer-links {
+    min-height: 200px;
+}
+ul.footer-links li {
+    color: #898989;
+    padding: 5px 5px;
+}
+p.footer-padlab-address {
+    color: #898989;
+    line-height: 1.5em;
+}
+form.footer-subscribe-form input {
+    padding: 10px;
+    background: #fff;
+    border: none;
+    float: none;
+    height: 40px;
+    vertical-align: middle;
+}
+button.footer-subscribe-btn {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /* float: left; */
+    background: #a67f4e;
+    vertical-align: middle;
+    margin-left: -5px;
+}
 @media screen and (max-width:640px){
 
     .agent-contact{
@@ -101,5 +235,15 @@ li.single-social-link .fa{
     }
     .work-with-me-text {
         font-size: 36px;
+    }
+
+    .footer-columns {
+        width: 49%;
+    }
+    ul.footer-links {
+        min-height: 140px;
+    }
+    form.footer-subscribe-form input {
+        width: 100px;
     }
 }
